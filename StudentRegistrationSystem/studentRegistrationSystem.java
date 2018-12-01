@@ -16,7 +16,7 @@ public class studentRegistrationSystem {
 		{
 			OracleDataSource ds = new oracle.jdbc.pool.OracleDataSource();
 			ds.setURL("jdbc:oracle:thin:@castor.cc.binghamton.edu:1521:acad111");
-			Connection conn = ds.getConnection("aravi1", "Abhi1234"); 
+			Connection conn = ds.getConnection(username, password); 
 			studentRegisterObject.main_menu(conn);
 			conn.close();
 		}	
