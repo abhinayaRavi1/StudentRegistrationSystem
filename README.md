@@ -4,7 +4,8 @@ This system can be used to enroll students into a class, drop enrollments, list 
 
 Oracle JDBC driver version - 11.1.0
 
-#Files:
+## Files:
+
 packspec.sql - File which contains procedure declarations
 packbody.sql - File which contains procedure definitions
 trigger.sql - File which contains triggers and a sequence for populating logs table
